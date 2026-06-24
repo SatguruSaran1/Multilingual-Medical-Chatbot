@@ -50,7 +50,7 @@ cd Medical-Chatbot
 ###  Install Python Dependencies
 
 ```bash
-pip install streamlit pymongo deep-translator fpdf spacy sounddevice numpy requests
+pip install -r requirements.txt
 ```
 
 ###  Download the spaCy Language Model
@@ -96,27 +96,29 @@ db_password = "your_db_password"
 uri = "your_connection_string_here"
 ```
 
-Also update the same in `main.py` lines 11–14.
+Also update the same in `src/main.py` lines 11–14.
 
----
 
 ##  Running the App
 
 ```bash
+cd src
 streamlit run main.py
 ```
 
 Then open **[http://localhost:8501](http://localhost:8501)** in your browser.
 
-> **Note:** Use `main.py` as the entry point (not `chatbot.py`). It handles login, admin dashboard, and encryption setup.
+> **Note:** Use `src/main.py` as the entry point (not `src/chatbot.py`). It handles login, admin dashboard, and encryption setup.
 
 ##  Project Structure
 
 ```
-├── main.py          # Entry point — login, admin dashboard, encryption setup
-├── chatbot.py       # Core chatbot logic — symptom collection, NLP, report generation
+├── requirements.txt # Python dependencies
 ├── README.md        # This file
-└── Sample_report.pdf  # Example of a generated patient report
+└── src/             # Source code folder
+    ├── main.py      # Entry point — login, admin dashboard, encryption setup
+    ├── chatbot.py   # Core chatbot logic — symptom collection, NLP, report generation
+    └── Sample_report.pdf  # Example of a generated patient report
 ```
 
 
