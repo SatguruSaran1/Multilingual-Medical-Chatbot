@@ -1,4 +1,4 @@
-#  MediBot — AI-Powered Patient Screening Chatbot
+#  MediBot AI-Powered Patient Screening Chatbot
 
 An intelligent, multilingual patient screening chatbot that collects symptoms, demographic details, and pre-medication conditions through voice or text input, then generates a structured PDF report for doctors. Built with a secure, encrypted MongoDB backend and powered by LLaMA 3 via Ollama for NLP.
 
@@ -109,8 +109,6 @@ streamlit run main.py
 Then open **[http://localhost:8501](http://localhost:8501)** in your browser.
 
 > **Note:** Use `main.py` as the entry point (not `chatbot.py`). It handles login, admin dashboard, and encryption setup.
-
----
 
 ##  Project Structure
 
