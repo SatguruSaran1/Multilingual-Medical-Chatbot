@@ -1,0 +1,9 @@
+streamlit
+ollama
+fpdf
+spacy
+pymongo
+sounddevice
+numpy
+requests
+deep-translator
