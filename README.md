@@ -14,20 +14,18 @@ An intelligent, multilingual patient screening chatbot that collects symptoms, d
 -  **Text-to-Speech** — Responses read aloud using Sarvam AI's multilingual TTS
 
 
-##  Tech Stack
+## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend / UI | Streamlit |
-| LLM / NLP | Ollama (LLaMA 3), spaCy |
-| Database | MongoDB Atlas |
-| Encryption | PyMongo Client-Side Field Level Encryption (AES-256) |
-| Speech-to-Text | Sarvam AI API (`saaras:v1`) |
-| Text-to-Speech | Sarvam AI API (`bulbul:v1`) |
-| Translation | Deep Translator (Google Translate) |
-| Audio Recording | sounddevice, wave, numpy |
-| PDF Generation | fpdf |
-| Language | Python 3.10+ |
+* Frontend / UI - Streamlit
+* LLM / NLP - Ollama (LLaMA 3), spaCy
+* Database - MongoDB Atlas
+* Encryption - PyMongo Client-Side Field Level Encryption (AES-256)
+* Speech-to-Text - Sarvam AI API (`saaras:v1`)
+* Text-to-Speech - Sarvam AI API (`bulbul:v1`)
+* Translation - Deep Translator (Google Translate)
+* Audio Recording - sounddevice, wave, numpy
+* PDF Generation - fpdf
+* Language - Python 3.10+
 
 
 ##  Prerequisites
